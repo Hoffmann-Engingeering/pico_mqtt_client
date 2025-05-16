@@ -68,10 +68,10 @@ pico_add_extra_outputs(pico_client)
 
 # Add WIFI credentials as compile definitions
 add_compile_definitions(
-        SSID="pico_test"
-        PASSWORD="password123"
-        SERVER_IP="192.168.137.1"
+        SSID="your ssid here"
+        PASSWORD="your password here"
+        SERVER_IP="mqtt server ip here"
         CLIENT_ID="pico_client"
-        MQTT_PORT=1883
+        MQTT_PORT=1883 #1883 for unsecure mqtt, 8883 for secure mqtt
 )
 
